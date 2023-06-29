@@ -1,0 +1,49 @@
+* {
+    font-family: helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 2em;
+}
+
+label {
+    font-size: .75em;
+}
+
+.header {
+    background-color: rgb(240, 240, 240);
+    border: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+}
+
+img {
+    max-width: 33%;
+    max-height: 50em;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.right-content {
+    max-width: 55%;
+}
+
+.section-1 {
+    background-color: white;
+}
+
+.main-footer {
+    background-color: rgb(240, 240, 240);
+    min-height: ;
+}
