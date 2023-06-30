@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-h1 {
+.header h1 {
     font-size: 1.4em;
     font-weight: 600;
     padding: 2em;
@@ -28,22 +28,47 @@ label {
 }
 
 img {
-    max-width: 33%;
-    max-height: 50em;
-    display: block;
+    height: 100vh;
     width: auto;
-    height: auto;
+    min-width: 1vh;
 }
 
 .right-content {
-    max-width: 55%;
+    min-width: 80%;
 }
 
-.section-1 {
-    background-color: white;
+.form-header h1 {
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-left: .8em;
+    padding-top: .5em;
 }
 
 .main-footer {
     background-color: rgb(240, 240, 240);
-    min-height: ;
+    padding: 1em;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 10px;
+    padding: 1em;
+    max-width: 50%;
+    place-items: center;
+    border: 1px solid red;
+;
+}
+
+.form input {
+    width: 20em;
+    height: 2.2em;
+    border-radius: 3px;
+    border: 1px solid silver;
+}
+
+.grid-partner {
+    display: flex;
+    flex-direction: column;
 }
