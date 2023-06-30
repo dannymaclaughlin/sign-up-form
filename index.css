@@ -3,12 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    color: white;;
 }
 
 .header h1 {
     font-size: 1.4em;
     font-weight: 600;
     padding: 2em;
+    max-width: 65%;
+    flex-wrap: wrap;
 }
 
 label {
@@ -16,7 +20,6 @@ label {
 }
 
 .header {
-    background-color: rgb(240, 240, 240);
     border: none;
 }
 
@@ -24,13 +27,13 @@ label {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 img {
     height: 100vh;
     width: auto;
-    min-width: 1vh;
+    max-width: 60%;
 }
 
 .right-content {
@@ -45,7 +48,7 @@ img {
 }
 
 .main-footer {
-    background-color: rgb(240, 240, 240);
+    /* background-color: rgb(240, 240, 240); */
     padding: 1em;
 }
 
@@ -57,7 +60,7 @@ img {
     padding: 1em;
     max-width: 50%;
     place-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 ;
 }
 
@@ -65,10 +68,18 @@ img {
     width: 20em;
     height: 2.2em;
     border-radius: 3px;
-    border: 1px solid silver;
+    border: 1px solid #E5E7EB;
 }
 
 .grid-partner {
     display: flex;
     flex-direction: column;
+}
+
+input[type="button"] {
+    padding: 1em;
+    border-radius: 6px;
+    border: 2px solid white;
+    color: black;
+    background-color: white;
 }
