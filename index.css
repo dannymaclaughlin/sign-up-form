@@ -8,11 +8,9 @@
 }
 
 .header h1 {
-    font-size: 1.4em;
+    font-size: 1.75em;
     font-weight: 600;
     padding: 2em;
-    max-width: 65%;
-    flex-wrap: wrap;
 }
 
 label {
@@ -42,8 +40,11 @@ label {
     position: absolute;
     top: 0;
     right: 0;
+    transform: translateY(75%);
     width: 50%;
-}
+  }
+  
+
 
 .form-header h1 {
     font-size: 1.2em;
@@ -53,7 +54,6 @@ label {
 }
 
 .main-footer {
-    /* background-color: rgb(240, 240, 240); */
     padding: 1em;
 }
 
@@ -63,14 +63,13 @@ label {
     grid-template-rows: repeat(3, auto);
     grid-gap: 10px;
     padding: 1em;
-    max-width: 50%;
+    max-width: 100%;
     place-items: center;
-    /* border: 1px solid red; */
 ;
 }
 
 .form input {
-    width: 20em;
+    width: 25em;
     height: 2.2em;
     border-radius: 3px;
     border: 1px solid #E5E7EB;
