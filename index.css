@@ -5,15 +5,20 @@
     margin: 0;
 }
 
+@font-face {
+    src: url(fonts/Norse-Bold.otf);
+    font-family: norse-bold;
+}
+
 .main-container {
-    border: 5px solid pink;
+    /* border: 5px solid pink; */
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
 }
 
 .right-container {
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
     width: 67%;
     height: 100%;
     
@@ -26,7 +31,7 @@
 }
 
 .header {
-    border: 5px solid red;
+    /* border: 5px solid red; */
     height: 35%;
 
     display: flex;
@@ -38,15 +43,15 @@
 }
 
 h1 {
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 .header h1 {
-    width: 92%;
+    width: 70%;
 }
 
 .form {
-    border: 5px solid green;
+    /* border: 5px solid green; */
     height: 25%;
     width: 100%;
     padding: 4%;
@@ -88,7 +93,7 @@ input[type="password"] {
 }
 
 .main-footer {
-    border: 5px solid orange;
+    /* border: 5px solid orange; */
     background-color: #f9fafb;
     width: 100%;
     padding: 1em;
@@ -101,6 +106,13 @@ input[type="password"] {
     margin-top: 1em;
     position: relative;
     left: 1.4%;
+    font-size: 1.1em;
+}
+
+a {
+    color:#596D48;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 input[type="button"] {
@@ -123,7 +135,7 @@ input[type="button"] {
 }
 
 .image {
-    border: 5px solid purple;
+    /* border: 5px solid purple; */
     background-image: url(photos/halie-west-25xggax4bSA-unsplash.jpg);
     height: 100vh;
     min-width: 33%;
@@ -162,7 +174,8 @@ input[type="button"] {
 
 .logo-text {
     color: white;
-    font-size: 5em;
     padding: 0;
-    margin: 0;
+    margin-top: 5%;
+    font-family: norse-bold;
+    font-size: 6.5em;
 }
