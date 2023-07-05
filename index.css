@@ -89,9 +89,19 @@ input[type="email"],
 input[type="tel"],
 input[type="password"] {
     width: 60%;
-    height: 2.8em;
+    height: 2em;
     border-radius: 4px;
     border: 1px solid #E5E7EB;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+input:invalid:required {
+    border: 2px solid red;
+}
+
+input:focus {
+    border: 2px solid #1d4ed8;
 }
 
 .main-footer {
