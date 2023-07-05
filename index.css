@@ -23,14 +23,18 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .header {
     border: 5px solid red;
+    height: 35%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+
     background-color: #f9fafb;
 }
 
@@ -39,24 +43,36 @@ h1 {
 }
 
 .header h1 {
-    width: 80%;
+    width: 92%;
 }
 
 .form {
     border: 5px solid green;
+    height: 25%;
+    width: 100%;
+    padding: 4%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.form-header {
+    font-size: 1.2em;
+}
+
+.label-input-group {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-    height: 20%;
-    width: 100%;
-    padding: 3em;
+    grid-gap: 15%;
 }
 
 .label-input-pair {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     font-size: .75em;
     letter-spacing: 2px;
+    grid-gap: 15%;
 }
 
 input[type="text"],
@@ -64,8 +80,8 @@ input[type="email"],
 input[type="tel"],
 input[type="password"] {
     width: 60%;
-    height: 2.5em;
-    border-radius: 2px;
+    height: 2.8em;
+    border-radius: 4px;
     border: 1px solid #E5E7EB;
 }
 
@@ -73,6 +89,7 @@ input[type="password"] {
     border: 5px solid orange;
     background-color: #f9fafb;
     width: 100%;
+    height: 40%;
     padding: 1em;
 }
 
