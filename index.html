@@ -28,37 +28,38 @@
                     </h1>     
                 </div>
                 <br>
-                <div class="label-input-group">
-                    <div class="label-input-pair">
-                        <label for="firstname">FIRST NAME</label>
-                        <input type="text" id="firstname" name="firstname">   
-                    </div>
-                    <div class="label-input-pair">
-                        <label for="lastname">LAST NAME</label>
-                        <input type="text" id="lastname" name="lastname">   
-                    </div>
-                    <div class="label-input-pair">
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email">    
-                    </div>
-                    <div class="label-input-pair">
-                        <label for="pnumber">PHONE NUMBER</label>
-                        <input type="tel" id="pnumber" name="pnumber">
-                    </div>
-                    <div class="label-input-pair">
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password" required>
-                    </div>
-                    <div class="label-input-pair">
-                        <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm-password" name="confirm-password" required>
-                    </div>    
-                </div>
-                
+                <form id="my-form">
+                    <div class="label-input-group">
+                        <div class="label-input-pair">
+                            <label for="firstname">FIRST NAME</label>
+                            <input type="text" id="firstname" name="firstname">   
+                        </div>
+                        <div class="label-input-pair">
+                            <label for="lastname">LAST NAME</label>
+                            <input type="text" id="lastname" name="lastname">   
+                        </div>
+                        <div class="label-input-pair">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">    
+                        </div>
+                        <div class="label-input-pair">
+                            <label for="pnumber">PHONE NUMBER</label>
+                            <input type="tel" id="pnumber" name="pnumber">
+                        </div>
+                        <div class="label-input-pair">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="label-input-pair">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-password" name="confirm-password" required>
+                        </div>    
+                    </div>                    
+                </form>
             </div>
 
             <div class="main-footer">
-                <input type="button" value="Create Account">
+                <button type="submit" form="my-form">Create Account</button>
 
                 <p>Already have an account? <a href="url">Log in</a></p>
             </div>
