@@ -54,7 +54,7 @@ h1 {
 
 .form {
     border: 5px solid green;
-    height: 25%;
+    height: auto; 
     width: 100%;
     padding: 4%;
 
@@ -193,6 +193,57 @@ button {
     margin-top: 5%;
     font-family: norse-bold;
     font-size: 6.5em;
+}
+
+/* FOR 900 x 600 SCREEN SIZES (SMALL BROWSERS) */
+@media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 900px) {
+        .header h1 {
+            width: 80%;
+            left: -6%;
+            font-size: 1.2em;
+        }
+    }
+
+    .label-input-group {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2%;
+        align-items: center;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+        width: 70%;
+        height: 1.8em;
+        font-size: 1.25em;
+    }
+
+    .main-footer {
+        padding: 0em;
+    }
+
+    button {
+        font-size: 11px;
+        left: 1.2%;
+    }
+
+    .main-footer p {
+        left: .5%;
+        font-size: 1em;
+    }
+
+    .logo-text {
+        font-size: 4.5em;
+    }
+
+    .logo {
+        min-width: 3em;
+        margin-right: 10px;
+    }
+
+    .form-header h1 {
+        font-size: 1.7em;
+    }
 }
 
 @media (max-width: 768px) {
